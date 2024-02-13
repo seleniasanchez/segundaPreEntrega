@@ -1,0 +1,132 @@
+
+
+body {
+
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+
+.header{
+  height: 750px;
+    border: rgb(197, 197, 197) solid 1px;
+   background-image: url('../imagenes/frontal.gif')
+}
+
+.navHeader{
+  height: 94px;
+  width: 100%;
+  background: rgb(255,255,255);
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 1%, rgba(243,243,246,1) 73%, rgba(237,237,241,0) 100%);
+}
+
+.header img{
+    height: 90px
+}
+
+.categorias a{
+    padding:0 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.categorias a:hover{
+    color:#D57A7F ;
+   
+}
+
+
+.notifi{
+  background-color: transparent!important;
+  border: none!important;
+}
+
+.notifi .fa-cart-shopping{
+color :rgb(0, 0, 0)
+}
+
+.notifi a{
+  color: #D57A7F!important;
+}
+
+.imagenInicio img{
+  width: 100%;
+  height: 800px;
+}
+
+.imagens{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.catalogo{
+  /* border: red solid 1px; */
+  padding: 50px;
+}
+
+.decripcionCatalogo p{
+  /* border: blue solid 2px; */
+  
+  width: 300px;
+}
+
+.imagens img {
+  margin: 24px;
+  width: 300px;
+  height: 380px;
+  padding:  15px;
+}
+
+/* .imagens img:hover{
+  background-image: url('../imagenes//patrones.jpg');
+} */
+.catalogo:hover{
+  background-color: rgba(214, 211, 211, 0.137);
+}
+
+.imagens .description{
+  margin-bottom: -45px ;
+}
+
+.buttonSelect{
+  height: 60px;
+  width: 50%;
+  border: none;
+}
+
+
+
+.botonSeletActive{
+  background-color: #d57a7f57;
+}
+
+
+.active{
+  color: rgb(189, 5, 66)!important;
+}
+
+.contenidoCarrito{
+  margin-top: 50px;
+  height: 400px;
+    overflow: auto;
+}
+
+.cajitaCar{
+  width: 200px;
+  
+  border: solid 1px white;
+  background-color: white;
+}
